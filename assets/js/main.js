@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $("#menu-open").click(function(){
+            $("#menu-nav").width("60%");
+    });
+    $("#menu-close").click(function(){
+        $("#menu-nav").width("0%");
+        $("#menu-nav").removeAttr('style');
+    });
+});

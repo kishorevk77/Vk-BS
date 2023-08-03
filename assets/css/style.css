@@ -1,0 +1,610 @@
+@font-face {
+    font-family:'montserrat-bold' ;
+    src: url('../css/Fonts/Montserrat-Bold/Montserrat-Bold-webfont.eot'),
+    url('../css/Fonts/Montserrat-Bold/Montserrat-Bold-webfont.svg'),
+    url('../css/Fonts/Montserrat-Bold/Montserrat-Bold-webfont.ttf'),
+    url('../css/Fonts/Montserrat-Bold/Montserrat-Bold-webfont.woff'),
+    url('../css/Fonts/Montserrat-Bold/Montserrat-Bold-webfont.woff2');
+}
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('../css/Fonts/Montserrat-Light/Montserrat-Light.eot'),
+    url('../css/Fonts/Montserrat-Light/Montserrat-Light.otf'),
+    url('../css/Fonts/Montserrat-Light/Montserrat-Light.svg'),
+    url('../css/Fonts/Montserrat-Light/Montserrat-Light.ttf'),
+    url('../css/Fonts/Montserrat-Light/Montserrat-Light.woff');
+}
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('../css/Fonts/Montserrat-Medium/Montserrat-Medium.eot'),
+    url('../css/Fonts/Montserrat-Medium/Montserrat-Medium.otf'),
+    url('../css/Fonts/Montserrat-Medium/Montserrat-Medium.svg'),
+    url('../css/Fonts/Montserrat-Medium/Montserrat-Medium.ttf'),
+    url('../css/Fonts/Montserrat-Medium/Montserrat-Medium.woff');
+}
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../css/Fonts/Montserrat-Regular/Montserrat-Regular.eot'),
+    url('../css/Fonts/Montserrat-Regular/Montserrat-Regular.otf'),
+    url('../css/Fonts/Montserrat-Regular/Montserrat-Regular.svg'),
+    url('../css/Fonts/Montserrat-Regular/Montserrat-Regular.ttf'),
+    url('../css/Fonts/Montserrat-Regular/Montserrat-Regular.woff');
+}
+@font-face {
+    font-family: 'montserrat-semibold';
+    src: url('../css/Fonts/Montserrat-SemiBold/Montserrat-SemiBold.eot'),
+    url('../css/Fonts/Montserrat-SemiBold/Montserrat-SemiBold.otf'),
+    url('../css/Fonts/Montserrat-SemiBold/Montserrat-SemiBold.svg'),
+    url('../css/Fonts/Montserrat-SemiBold/Montserrat-SemiBold.ttf'),
+    url('../css/Fonts/Montserrat-SemiBold/Montserrat-SemiBold.woff');
+}
+/*Header section*/
+.header-section{
+    width: 100%;
+    margin: 0px auto;
+}
+.company-logo{
+    text-align: center;
+}
+.company-logo img{
+    width: 100%;
+    max-width: 160px;
+}
+.menu-list li a{
+    font-size: 10px;
+    line-height: 14px;
+    font-family: 'montserrat-regular';
+    color: #81878D;
+}
+.menu-list li a img{
+    width: 100%;
+    max-width: 9px;
+    padding-left: 2px;
+}
+.menu-list li:nth-child(8) a{
+    font-size: 13px;
+    line-height: 15px;
+    font-family: 'montserrat-semibold';
+    color: #3C454E;
+}
+.menu-list li:nth-child(9) a{
+    font-size: 13px;
+    line-height: 15px;
+    padding:5px 8px;
+    background-color: #00AEEF;
+    color: #fff;
+    border-radius: 3px;
+}
+.menu-list li:nth-child(8) a img{
+    width: 100%;
+    max-width: 17px;
+}
+.menu-list li a:hover{
+    color: #4e4949;
+}
+.menu-list li:nth-child(9) a:hover{
+    background-color: #252525;
+    color: #fff;
+}
+/*End of header section*/
+
+/*manfacturing-industrial-facilities-section*/
+.container{
+    max-width: 80%;
+}
+.manfacturing-industrial-facilities{
+    background-image: linear-gradient(rgba(8, 5, 14, 0.575),rgba(10, 10, 12, 0.849)),url('../Images/bannr-industries-we-serve.jpg');
+    background-position: bottom;
+    background-repeat:no-repeat;
+    background-size: 100% 120%;
+    padding:70px 0px;
+}
+.manfacturing-industrial-facilities-section h1{
+    font-size: 40px;
+    line-height: 50px;
+    color:#fff;
+    font-family: 'montserrat-semibold';
+    width:40%;
+}
+.manfacturing-industrial-facilities-section p{
+    font-family: 'montserrat-regular';
+    font-size: 13px;
+    line-height: 25px;
+    color:#e2e6eb;
+    width: 70%;
+}
+/*End of manfacturing-industrial-facilities-section*/
+
+/*Onsite perimeter section*/
+.onsite-perimeter-section h2{
+    font-family: 'montserrat-bold';
+    font-size: 16px;
+    line-height: 17px;
+    color: #3a3a3b;
+}
+.onsite-para1{
+    font-family: 'montserrat-regular';
+    font-size: 16px;
+    line-height: 18px;
+    color: #3a3a3b;
+}
+.common-para{
+    font-family: 'montserrat-regular';
+    font-size: 12px;
+    line-height: 20px;
+    color: #83868a;
+}
+.onsite-perimeter-section .common-para{
+    width:88%;
+}
+.perimeter-list{
+    width: 90%;
+}
+.perimeter-list li{
+    background: url('../images/bullet_downarrow.png') left top no-repeat;
+    background-size: 12px 12px;
+    background-position-y: 3px;
+    padding-left: 25px;
+    color: #83868a;
+    font-family: 'montserrat-regular';
+    font-size: 13px;
+    line-height: 18px;
+}
+.perimeter-section-image img{
+    width:100%;
+    max-width:500px;
+}
+/*End of Onsite perimeter section*/
+/*video monitoring section heading*/
+.video-monitoring-section-heading h3{
+    font-family: 'montserrat-bold';
+    font-size:33px;
+    line-height: 36px;
+    color: #2B343E;
+}
+.video-monitoring-section-heading{
+    width:72%;
+    margin: 0px auto;
+}
+.video-monitoring-image img{
+    width: 100%;
+    max-width: 532px;
+}
+.our-service-section h4{
+    font-family: 'montserrat-semibold';
+    font-size: 15px;
+    line-height: 16px;
+    color: #333232;
+}
+.our-service-section .common-para{
+    color:#615f5f;
+}
+.our-service-list li a img{
+    width: 100%;
+    max-width: 50px;
+}
+.our-service-list li a{
+    width: 70%;
+    font-family: 'montserrat-regular';
+    color: #7d8288;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 13px;
+}
+/*End of video monitoring section heading*/
+.security-camera-section{
+    background-image:linear-gradient(rgba(24, 26, 26, 0.849),rgba(15, 14, 14, 0.726)), url("../images/A-professionally-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:70px 0px;
+}
+.security-camera-section p{
+    font-family: 'montserrat-regular';
+    color: #e2e6eb;
+    font-size: 18px;
+    line-height: 27px;
+    width: 47%;
+}
+.security-camera-section .perimeter-list li{
+    color: #e2e6eb;
+}
+.manufacturing-section-heading h3{
+    font-family: 'montserrat-bold';
+    font-size:33px;
+    line-height: 36px;
+    color: #2B343E;
+}
+.manufacturing-section-heading{
+    width:59%;
+    margin: 0px auto;
+}
+.manufacturing-section img{
+    width: 100%;
+    max-width: 685px;
+}
+.manufacturing-section .our-service-section .common-para{
+    width: 75%;
+    font-size: 16px;
+    line-height: 25px;
+}
+.manufacturing-section h4{
+    font-size: 16px;
+    line-height: 23px;
+    width: 69%;
+}
+.manufacturing-section .perimeter-list li{
+    color: #2B343E;
+}
+.local-security-service-section{
+    background-color: #00aeef;
+}
+.local-security-service-section-content p{
+    font-family: 'montserrat-regular';
+    color: #fff;
+    font-size: 19px;
+    line-height: 26px;
+}
+.local-security-service-section-content a{
+    text-decoration: none;
+    color: #fff;
+    font-family:'montserrat-regular';
+    background-color: #1c75bc;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 16px 27px 16px 27px;
+    border-radius: 5px;
+}
+.local-security-service-section-content a:hover{
+    background-color:#252525;
+}
+.footer-section{
+    background-color: #eaebec;
+}
+.company-address h5{
+    font-family: 'montserrat-regular';
+    font-size: 15px;
+    line-height: 16px;
+    color:#333232
+}
+.footer-contact-list li address{
+    color: #7d8288;
+    font-style: normal;
+    font-family: 'montserrat-regular';
+    font-size: 13px;
+    line-height: 16px;
+    width: 50%;
+}
+.footer-contact-list li a{
+    text-decoration: none;
+    color:#7d8288;
+    font-family: 'montserrat-regular';
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer-contact-list li img{
+    width: 100%;
+    max-width: 18px;
+}
+.contact-us-button a{
+    text-decoration: none;
+    font-family: 'montserrat-regular';
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #00aeef;
+    padding: 10px 18px 10px 18px;
+    border-radius: 4px;
+}
+.contact-us-button a:hover{
+    background-color: #252525;
+}
+.copyright p{
+    font-family: 'montserrat-regular';
+    font-size: 13px;
+    line-height:20px;
+    color: #7d8288;
+}
+.petropages a{
+    text-decoration: none;
+    color: #7d8288;
+    font-family:'montserrat-regular';
+    font-size: 13px;
+    line-height: 14px;
+}
+.petropages img{
+    width: 100%;
+    max-width: 22px;
+}
+.hr1{
+    border-style: none;
+    background-color: #3a3a3b;
+    height: 0.5px;
+}
+.arrow-icon{
+    display: none;
+}
+@media screen and (max-width:1264px){
+    .menu-list li a{
+        font-size: 10px;
+    }    
+    .menu-list li{
+        padding:0px 5px 0px 5px !important;
+    }
+    .menu-list li:nth-child(8) a{
+        font-size: 11px;
+    }
+    .menu-list li:nth-child(9) a{
+        font-size: 11px;
+    }
+    .menu-list li a{
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    .manfacturing-industrial-facilities-section h1{
+        width:54%;
+    }
+}
+@media screen and (max-width:1122px){
+    .menu-list li a{
+        font-size: 9px;
+    } 
+    .menu-list li{
+        padding:0px 3px 0px 3px !important;
+    }
+    .menu-list li a{
+        padding-right: 4px !important;
+        padding-left: 4px !important;
+    }
+    .manufacturing-section .our-service-section .common-para{
+        width: 87%;
+    }
+    .manufacturing-section h4{
+        width:78%;
+    }
+}
+
+@media screen and (max-width:992px){
+    /*header section*/
+    .company-logo{
+        text-align: unset;
+    }
+    .header-section{
+        width:95%;
+    }
+    .menu-list{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding:50px 0px 0px 0px;
+    }
+    .menu-list a {
+        padding: 20px 10px 5px 0px;
+        text-decoration: none;
+        font-size: 19px;
+        color: #888B85;
+        display: block;
+        transition: 0.3s;
+    }
+    ul.navbar-nav.hov-list{
+        padding-left:53px ;
+    }
+    .menu-list a:hover{
+        color: #f1f1f1;
+    } 
+    .menu-list .close-btn {
+        position: absolute;
+        top: 0;right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .nav-menu-icon img{
+        width: 100%;
+        max-width: 36px;
+    }
+    .container{
+        max-width: 85%;
+    }
+    .manfacturing-industrial-facilities{
+        background-size: 100% 167%;
+    }
+    .manfacturing-industrial-facilities-section h1{
+        width: 57%;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .manfacturing-industrial-facilities-section p{
+        font-size: 13px;
+        line-height: 24px;
+        width: 73%;
+    }
+    .common-para{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .onsite-perimeter-section .common-para{
+        width:100%;
+    }
+    .perimeter-list{
+        width: 100%;
+    }
+    .perimeter-section-image img{
+        max-width: 836px;
+    }
+    .video-monitoring-section-heading{
+        width: 100%;
+    }
+    .video-monitoring-section-heading .common-para{
+        font-size: 13px;
+    }
+    .video-monitoring-image img{
+        max-width: 843px;
+    }
+    .security-camera-section p{
+        width: 97%;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .security-camera-section{
+        padding: 40px 0px;
+    }
+    .manufacturing-section{
+        width: 85%;
+        margin: 0px auto;
+    }
+    .manufacturing-section-heading{
+        width: 100%;
+    }
+    .manufacturing-section-heading .common-para{
+        font-size: 13px;
+    }
+    .manufacturing-section .our-service-section .common-para{
+        width: 100%;
+        font-size: 15px;
+    }
+    .manufacturing-section h4{
+        font-size: 14px;
+    }
+    .footer-contact-list li address{
+        width: 33%;
+    }
+    .company-address h5{
+        font-size: 13px;
+    }
+    .copyright p{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .manfacturing-industrial-facilities-section h1{
+        width:74%;
+    }
+    .manfacturing-industrial-facilities-section p{
+        width:90%;
+    }
+    .our-service-list li{
+        text-align: center;
+    }
+    .manufacturing-section h4{
+        width: 100%;
+    }
+    .company-address h5{
+        font-size: 15px;
+    }
+    .footer-contact-list li address{
+        width: 55%;
+    }
+    .copyright p{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .company-logo img{
+        max-width: 135px;
+    }
+    .nav-menu-icon img{
+        max-width: 30px;
+    }
+    .manfacturing-industrial-facilities-section h1{
+        width: 85%;
+        font-size: 30px;
+        line-height:45px ;
+    }
+    .manfacturing-industrial-facilities-section p{
+        width: 100%;
+        font-size: 13px;
+    }
+    .manfacturing-industrial-facilities {
+        background-size: 100% 155%;
+        padding: 60px 0px;
+    }
+    .onsite-para1{
+        font-size: 15px;
+    }
+    .onsite-perimeter-section h2{
+        font-size: 15px;
+    }
+    .common-para{
+        font-size: 13px;
+    }
+    .security-camera-section{
+        background-size: 233% 100%;
+        background-position: center;
+    }
+    .local-security-service-section-content p{
+        font-size: 17px;
+    }
+    .local-security-service-section-content a{
+        font-size: 13px;
+        padding: 13px 15px 13px 15px;
+    }
+    .footer-section{
+        background-color: #fff;
+    }
+    .company-address h5{
+        font-size: 18px;
+    }
+    .footer-contact-list li address{
+        width:32%;
+        line-height: 20px;
+    }
+    .hr-mobile{
+        width: 60px;
+        border-style: none;
+        background-color:#D0D0D0;
+        height: 3px;
+    }
+    .petropages-hr{
+        display: none;
+    }
+    .petropages{
+        display:none;
+    }
+    .footer-contact-list ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contact-list li a{
+        color: #00aeef;
+        font-size: 14px;
+    }
+    .footer-contact-list li:nth-child(2){
+        order:4;
+    }
+    .footer-contact-list li:nth-child(3){
+        order:3;
+    }
+    .footer-contact-list li:nth-child(4){
+        order:2;
+    }
+    .arrow-icon{
+        display: block;
+        text-align: center;
+    }
+    .footer-contact-us{
+        background-color: #EAEBEC;
+    }
+    .contact-us-button{
+        background-color: #fff;
+    }
+    
+    .copyright p{
+        text-align: center;
+        font-size: 14px;
+        line-height: 25px;
+        width: 70%;
+        margin: 0px auto;
+        padding-bottom: 30px;
+        
+        
+    }
+}
